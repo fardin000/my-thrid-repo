@@ -99,7 +99,7 @@ a{
 @media only screen and (max-width: 500px){
     .timepass-text{
         position: absolute;
-        top: 500px;        
+        top: 400px;        
     }
 
     .right-corner{
