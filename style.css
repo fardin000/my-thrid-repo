@@ -2,7 +2,13 @@ body{
     
     font-family: 'Rubik', sans-serif;
 }
+.top-bg{
+    margin-top: -10px;
+    margin-left: -10px;
+    
+}
 .content-width{
+    position: relative;
     display: flex;
     width: 100%;
     margin: auto;
@@ -39,12 +45,16 @@ body{
 .radius-img{
     border-radius: 60%;
 }
-
+.right-corner{
+    position: absolute;
+    right: 0px;
+    top: 160px;
+}
 .timepass-text{
-    display: block;
     width: 50%;
-    margin-left: 10%;
+    margin-left: 8%;
     padding-right: 5%;
+    
 }
 .timepass-section{
     margin-bottom: 10%;
@@ -57,15 +67,21 @@ a{
     background-color: rgb(33, 226, 184);
 
 }
+.expertise-img{
+    display: flex;
+    position: absolute;
+    padding-top: 50px;
+}
 .extpertise-section{
     margin-bottom: 10%;
+    
 }
 .transparent-border{
     width: 350px;
     margin: auto;
     padding: 20px;
-    border: 2px solid gainsboro;
-    box-shadow: 10px 20px 7px gainsboro;
+    border:  gainsboro;
+    box-shadow: 10px 20px 7px 3px gainsboro;
 }
 
 footer{
