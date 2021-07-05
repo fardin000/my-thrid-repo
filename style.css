@@ -61,11 +61,11 @@ body{
 }
 a{
     color: white;
+    padding: 5px;
     text-decoration: none;
-    border: 5px solid rgb(33, 226, 184);
-    border-radius: 7px;
-    background-color: rgb(33, 226, 184);
-
+    border-radius: 3px;
+    background-image: linear-gradient(to right, #DD5E89 0%, #F7BB97 51%, #DD5E89 100%)
+    
 }
 .expertise-img{
     display: flex;
@@ -80,8 +80,18 @@ a{
     width: 350px;
     margin: auto;
     padding: 20px;
-    border:  gainsboro;
-    box-shadow: 10px 20px 7px 3px gainsboro;
+    border:  transparent gainsboro;
+    box-shadow: 10px 10px 10px 12px gainsboro;
+}
+.gradient-one{
+    border-left: 5px solid gray;
+    border-image:
+    linear-gradient(to bottom, green, rgba(0, 0, 0, 0)) 1 100%;
+}
+.gradient-two{
+    border-left: 5px solid gray;
+    border-image: 
+    linear-gradient(to bottom, green, rgba(0, 0, 0, 0)) 1 100%;
 }
 
 footer{
