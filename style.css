@@ -17,19 +17,37 @@ body{
     margin-top: 3%;
     margin-left: 10%;
 }
+.intro-img{
+    width: 100%;
+    height: 450px;
+}
 .intro-h1{
     font-size: 40px;
 }
 .name-color{
     color: yellowgreen;
 }
+.intro-section{
+    margin-bottom: 10%;
+}
 .timepass-width{
     width:100%;
 }
+.timepass-img{
+    margin-left: 40px; 
+}
+.radius-img{
+    border-radius: 60%;
+}
+
 .timepass-text{
     display: block;
     width: 50%;
     margin-left: 10%;
+    padding-right: 5%;
+}
+.timepass-section{
+    margin-bottom: 10%;
 }
 a{
     color: white;
@@ -39,20 +57,19 @@ a{
     background-color: rgb(33, 226, 184);
 
 }
+.extpertise-section{
+    margin-bottom: 10%;
+}
 .transparent-border{
     width: 350px;
-    border: 1px solid gainsboro;
-    box-shadow: 10px 5px 5px gray );
-    padding: 40px;
     margin: auto;
+    padding: 20px;
+    border: 2px solid gainsboro;
+    box-shadow: 10px 20px 7px gainsboro;
 }
 
-.intro-section{
-    margin-bottom: 10%;
-}
-.timepass-section{
-    margin-bottom: 10%;
-}
-.expertise-section{
-    margin-bottom: 10%;
+footer{
+    margin-top: 10%;
+    margin-bottom: 2%;
+    text-align: center;
 }
