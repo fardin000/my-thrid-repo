@@ -1,8 +1,18 @@
 body{
     font-family: 'Rubik', sans-serif;
 }
-.header{
+.content-width{
     display: flex;
-    width: 50%;
+    width: 100%;
     
+}
+
+.intro-width{
+    width: 50%;
+}
+.intro-text{
+    font-size: 40px;
+}
+.name-color{
+    color: yellowgreen;
 }
