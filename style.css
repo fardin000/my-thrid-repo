@@ -1,4 +1,5 @@
 body{
+    background-color: rgba(129, 129, 115, 0.068);
     font-family: 'Rubik', sans-serif;
 }
 .content-width{
@@ -15,4 +16,8 @@ body{
 }
 .name-color{
     color: yellowgreen;
+}
+.timepass-size{
+    width:100%;
+    
 }
