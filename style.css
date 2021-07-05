@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(129, 129, 115, 0.068);
+    
     font-family: 'Rubik', sans-serif;
 }
 .content-width{
@@ -38,4 +38,21 @@ a{
     border-radius: 7px;
     background-color: rgb(33, 226, 184);
 
+}
+.transparent-border{
+    width: 350px;
+    border: 1px solid gainsboro;
+    box-shadow: 10px 5px 5px gray );
+    padding: 40px;
+    margin: auto;
+}
+
+.intro-section{
+    margin-bottom: 10%;
+}
+.timepass-section{
+    margin-bottom: 10%;
+}
+.expertise-section{
+    margin-bottom: 10%;
 }
